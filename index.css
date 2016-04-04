@@ -1,5 +1,6 @@
-header h1 {
-    background-image: url(SewingThings-transparency.jpg);
-    height: 220px;
-    width: 1147px;
+section {
+    width: 80%;
+    padding: 0 10%;
+    border-bottom: double #888 1em;
 }
+
