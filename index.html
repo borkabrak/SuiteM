@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap -->
-    <link href="bower/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap.css" rel="stylesheet">
     <!-- Bootstrap theme -->
-    <link href="bower/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="bootstrap-theme.min.css" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
 
     <title>Suite M Sewing and Alterations</title>
@@ -17,17 +17,19 @@
 
   <body>
 
-    <nav id="mainmenu">
+    <nav id="mainmenu" class="navbar navbar-default navbar-fixed-top">
+        <div class="page-header">
+            <h1><a href=".">Suite M <small>Sewing and Alterations</small></a></h1>
+        </div>
         <ul class="nav nav-tabs">
-            <li><a href="#main">Main</a></li>
             <li><a href="#contact">Contact Info</a></li>
             <li><a href="#map">Map</a></li>
             <li><a href="#about">About Us</a></li>
         </ul>
     </nav>
 
-    <section id="main">
-        <h1>Suite M Sewing and Alterations</h1>
+    <section class="gallery">
+        <img src="SuiteM-window-sign.jpg" alt="The window facing Dickerson Pike">
     </section>
 
     <section id="contact">
@@ -42,6 +44,8 @@
     </section>
 
     <section id="map">
+        <img src="map_placeholder.png" alt="Map placeholder image">
+        <!--
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d51469.43600302005!2d-86.77359!3d36.26766930000007!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88645cdf4ab5038d%3A0x3461e8a7b186c3cf!2sSuite+M+Sewing!5e0!3m2!1sen!2sus!4v1459713531022"
             width="600"
@@ -50,9 +54,11 @@
             style="border:0"
             allowfullscreen>
         </iframe>
+        -->
     </section>
 
     <section id="about">
+        <h2>About Us</h2>
         <p>
         We are a small team of experienced, dedicated women who believe
         that clothing is more than just something to put between you and
@@ -76,7 +82,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="bower/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bower/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap.js"></script>
 
   </body>
 

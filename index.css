@@ -1,6 +1,28 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 2em;
+}
+
+.page-header {
+    background-image: url(SewingThings.jpg);
+    background-size: cover;
+}
+
+#about {
+    width: 50%;
+    height: 100%;
+}
+
+.gallery img {
+    width: 50%;
+}
+
 section {
-    width: 80%;
-    padding: 0 10%;
-    border-bottom: double #888 1em;
+    /* Make some space for the fixed header/nav */
+    padding-top: 8.5em;
+}
+
+footer {
+    padding-top: 80%;
 }
 
